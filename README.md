@@ -2,9 +2,13 @@
 
 Loglens is a Python program that counts records in CSV log files based on their log level. Users can count all records or select a specific log level. The program runs locally and does not change the original file. LogLens is mainly for computing students and new technical interns who have basic knowledge of CSV files and terminal commands.
 
-## Requirements and things
+## Requirements
 
-You need Python. Most computers already have it, and version 3.6 or later should be good enough. It works on Windows, Mac, and Linux. Other than that, there is not much to know.
+Before using LogLens, you need:
+- Python 3.10 or newer
+- Basic knowledge of CSV files and terminal commands
+- A CSV file with the required columns
+LogLens does not require any additional packages or installation.
 
 ## Get started
 
