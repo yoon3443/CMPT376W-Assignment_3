@@ -1,6 +1,6 @@
 # LogLens
 
-LogLens is a really simple program that tells you what's happening in your logs. It is useful for developers, IT staff, customers, and anybody who has a computer. You don't really need to know anything about log files to get started. It finds problems in your files, so you can use it to make decisions about your system. Your data is always 100% secure.
+Loglens is a Python program that counts records in CSV log files based on their log level. Users can count all records or select a specific log level. The program runs locally and does not change the original file. LogLens is mainly for computing students and new technical interns who have basic knowledge of CSV files and terminal commands.
 
 ## Requirements and things
 
