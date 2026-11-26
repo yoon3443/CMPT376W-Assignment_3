@@ -17,13 +17,41 @@ LogLens does not require any additional packages or installation.
 4. Run the program using the commands below.
 For more detailed instructions, see the [Installation Guide](docs/INSTALL.md).
 
-## Using the program
+## Usage
 
-Run the following command after you have found the correct folder:
+Run these commands from the folder containing `loglens.py`.
 
-`loglens --input mylog.csv --severity error`
+### Count ERROR Records
 
-The software scans your log, fixes mistakes, and shows you what went wrong. You will see a number once it is finished. You can also run it on real production files without worrying about any side effects.
+```bash
+python loglens.py --file data/sample_logs.csv --level ERROR
+```
+
+Expected output:
+```text
+Records matching ERROR: 2
+```
+
+### Count All Records
+
+If you do not select a log level, LogLens counts all records.
+
+```bash
+python loglens.py --file data/sample_logs.csv
+```
+Expected output:
+
+```text
+Records matching ALL: 6
+```
+
+To see the available options, run:
+
+```bash
+python loglens.py --help
+```
+
+On some computers especially Mac users, you may need to use `python3` or `py` instead of `python`.
 
 ## Input format
 
