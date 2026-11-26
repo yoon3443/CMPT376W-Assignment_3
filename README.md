@@ -11,8 +11,11 @@ Before using LogLens, you need:
 LogLens does not require any additional packages or installation.
 
 ## Get started
-
-First, get the project files from GitHub. Then install the program using `pip install log-lens` and run it by typing `loglens`. If you can't make it work, see docs/INSTALL.md. You probably won't need those instructions.
+1. Click Code → Download ZIP on this GitHub repository.
+2. Extract the downloaded ZIP file.
+3. Open a terminal and go to the folder containing `loglens.py`.
+4. Run the program using the commands below.
+For more detailed instructions, see the [Installation Guide](docs/INSTALL.md).
 
 ## Using the program
 
