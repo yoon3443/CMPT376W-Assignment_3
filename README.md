@@ -1,4 +1,4 @@
-# LogLens - find all your log problems fast
+# LogLens
 
 LogLens is a really simple program that tells you what's happening in your logs. It is useful for developers, IT staff, customers, and anybody who has a computer. You don't really need to know anything about log files to get started. It finds problems in your files, so you can use it to make decisions about your system. Your data is always 100% secure.
 
