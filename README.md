@@ -53,9 +53,18 @@ python loglens.py --help
 
 On some computers especially Mac users, you may need to use `python3` or `py` instead of `python`.
 
-## Input format
+## Input Format
+LogLens requires a CSV file with these three columns:
 
-The input should be a CSV file. Log files tend to have fields describing the time and what happened, but LogLens is flexible and will work with whatever columns your monitoring system uses. A small example is included somewhere in this repository.
+| Column | Description |
+| --- | --- |
+| `timestamp` | The time of the log record |
+| `level` | The log level |
+| `message` | The log message |
+
+The column names must be exactly `timestamp`, `level`, and `message`.
+LogLens supports three log levels: `INFO`, `WARN`, and `ERROR`.
+You can find an example file at [data/sample_logs.csv](data/sample_logs.csv).
 
 ## Questions
 
