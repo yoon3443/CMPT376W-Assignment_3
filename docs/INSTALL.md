@@ -14,15 +14,23 @@ python --version
 On some computers such as mac, you may need to use `python3` or `py` instead of `python`.
 LogLens uses only the Python standard library, so no additional packages are required. It processes log files locally without uploading them.
 
-## Getting the program
+## Setting Up LogLens
+1. Open the GitHub repository.
+2. Click Code → Download ZIP
+3. Extract the downloaded ZIP file.
+4. Open a terminal.
+5. Navigate to the extracted folder using the `cd` command.
 
-Get LogLens from the GitHub website. Look for the green button and download a ZIP. Then extract it. Make sure you are in the right place in the terminal, because you will need that later. Once everything is done, you can install it.
+Make sure you are in the repository root, which is the folder containing `loglens.py`.
 
-Run this command:
-
-pip install loglens
-
-Then move on to the next step.
+The folder should contain the following files and directories:
+```text
+loglens.py
+README.md
+docs/
+data/
+```
+No additional installation is required.
 
 ## Running a check
 
