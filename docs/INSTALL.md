@@ -1,6 +1,6 @@
-# How to install LogLens and use it
+# LogLens Installation Guide
 
-These instructions are for everyone. They should work the same way on every machine, so read through them and do what they say.
+This guide explains how to set up and run LogLens. It is intended for computing students and new technical interns who are familiar with CSV files and terminal commands.
 
 ## Things you need
 
