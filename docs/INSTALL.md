@@ -2,11 +2,17 @@
 
 This guide explains how to set up and run LogLens. It is intended for computing students and new technical interns who are familiar with CSV files and terminal commands.
 
-## Things you need
+## Requirements
 
-* Python 3.8 or newer, plus pip.
-* A network connection so LogLens can upload your files for checking.
-* A file containing logs from your computer or a work system.
+- Python 3.10 or newer
+- A terminal
+- A CSV log file (a sample file is included in the repository)
+To check your Python version, run:
+```bash
+python --version
+```
+On some computers such as mac, you may need to use `python3` or `py` instead of `python`.
+LogLens uses only the Python standard library, so no additional packages are required. It processes log files locally without uploading them.
 
 ## Getting the program
 
