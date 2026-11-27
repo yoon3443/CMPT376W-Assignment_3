@@ -66,6 +66,14 @@ The column names must be exactly `timestamp`, `level`, and `message`.
 LogLens supports three log levels: `INFO`, `WARN`, and `ERROR`.
 You can find an example file at [data/sample_logs.csv](data/sample_logs.csv).
 
-## Questions
+## Troubleshooting
 
-If something doesn't work, just contact the developers or create an issue. Make sure you describe the problem so somebody can help. This is a basic tool, so the instructions should be pretty obvious.
+If the program does not work, check the following:
+1. Check if the version is Python 3.10 or newer.
+2. Check that you are in the correct folder.
+3. Check the CSV file path is correct.
+4. Check that the CSV file has the required columns.
+5. Check that the log level is `INFO`, `WARN`, or `ERROR`.
+
+For more help, see the [Installation Guide](docs/INSTALL.md).
+If you still have problems, you can open a GitHub issue. Explain the problem and include a small example if needed. Do not share any private or sensitive information from your log files.
