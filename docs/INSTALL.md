@@ -32,13 +32,40 @@ data/
 ```
 No additional installation is required.
 
-## Running a check
+## Running LogLens with the Sample File
+Before using your own CSV file, test the program with the included sample file.
+Run the following command from the repository root:
+```bash
+python loglens.py --file data/sample_logs.csv --level ERROR
+```
+Expected output:
+```text
+Records matching ERROR: 2
+```
+To count all records, run:
+```bash
+python loglens.py --file data/sample_logs.csv
+```
+Expected output:
+```text
+Records matching ALL: 6
+```
 
-First, take a CSV file from your logging system and put it in the project directory. It needs the columns `date`, `severity`, and `details` or the tool might fail. Running it is easy:
+## Preparing Your Own CSV File
+Make sure your CSV file contains the following column headers:
+- `timestamp`
+- `level`
+- `message`
+The column names must match exactly. The supported log levels are `INFO`, `WARN`, and `ERROR`.
+See the [sample CSV file](../data/sample_logs.csv) for an example.
 
-python loglens.py data/sample_logs.csv
-
-For your own files, type `python loglens.py --file /Users/alex/Desktop/system-log.csv --level error`. This will print results when the analysis is over. You can find the example data in the project somewhere.
+## Running LogLens with Your Own File
+Use the `--file` argument to specify your CSV file.
+The `--level` argument is optional. If you do not include it, LogLens counts all records.
+To see the available command-line options, run:
+```bash
+python loglens.py --help
+```
 
 ## Problems and fixes
 
